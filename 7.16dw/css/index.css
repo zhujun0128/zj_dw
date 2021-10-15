@@ -1,0 +1,63 @@
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+	}
+body{
+	width:60%;
+	margin:0 auto;}
+.top{
+	background:url(../img/1.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;}
+#h{
+	color:#FFF;
+	padding-left:200px;}
+#b{
+	width:100px;
+	height:50px;
+	margin-top:100px;
+	margin-left:200px;
+	margin-bottom:100px;}
+#table1{
+	padding-top:30px;
+	line-height:30px;
+	margin:0 auto;}
+#td1{
+	padding-right:30px;}
+#img1{
+	width:25px;
+	height:25px;
+	margin-top:1px;}
+#img2{
+	width:100px;
+	height:50px;}	
+.main{
+	text-align:center;
+	padding-top:10px;
+	}
+#images{
+	width:500px;
+	height:230px;
+	overflow: hidden;
+    position: relative;
+	}
+#images img{
+	position: absolute;
+    top: -230px;
+    left: 0px;
+    z-index: 1;
+    opacity: 1;
+    transition: all linear 500ms;
+    -o-transition: all linear 500ms;
+    -moz-transition: all linear 500ms;
+    -webkit-transition: all linear 500ms;
+	}
+#images img:target {
+    top: 0;
+    z-index: 9;
+    opacity: 1;
+}
+#images img:first-child {
+    top: 0;
+}
